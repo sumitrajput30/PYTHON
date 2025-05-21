@@ -1,27 +1,27 @@
 # Decorator
 
-# def decor(fun):
-#     def inner():
-#         fun()
-#     return 5
+def decor(fun):
+    def inner():
+        fun()
+    return 5
     
-# def mainfun():
-#     print("main function")
+def mainfun():
+    print("main function")
 
-# x=decor(mainfun)
-# print(x)
-# x()
+x=decor(mainfun)
+print(x)
+x()
 
 # inner
 
-# def decor():
-#     def inner():
-#         print("hello")
-#     return inner
+def decor():
+    def inner():
+        print("hello")
+    return inner
 
-# x=decor()
-# print(x)
-# x()
+x=decor()
+print(x)
+x()
 
 
 
